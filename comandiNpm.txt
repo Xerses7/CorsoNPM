@@ -20,3 +20,20 @@ npm set init-author-name 'Dario Pirola'
 npm set init-license 'MIT' // da verificare
 npm get init-author-name
 npm config delet init-author-name
+
+// INSTALLARE
+npm install lodash
+npm install lodash --save (-S) // salvare in package.json
+npm i karma --save-dev (-D) // dipendenze per sviluppo
+
+// LIST
+npm list
+npm list --depth 1
+npm list --depth 0
+npm list --global true --depth 0
+npm list --depth 0 --long true
+npm list --depth 0 --json true
+npm list --depth 0 --parseable true
+npm list --depth 0 --dev true
+npm list --depth 0 --prod true
+npm ls
