@@ -8,3 +8,7 @@ npm start // da package.json
 npm test // da package.json
 
 // NPM HELP
+npm -h
+npm install -h
+npm help install
+npm help-search remove
