@@ -1,0 +1,10 @@
+
+
+// USO DI BASE DI NPM
+git clone https://github.com/joeeames/trip-to-mars-typical
+cd trip-to-mars-typical
+npm install
+npm start // da package.json
+npm test // da package.json
+
+// NPM HELP
