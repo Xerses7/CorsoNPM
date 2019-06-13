@@ -12,3 +12,11 @@ npm -h
 npm install -h
 npm help install
 npm help-search remove
+
+// INIZIARE NUOVO PROGETTO
+npm init
+npm init -y // tutto accettato
+npm set init-author-name 'Dario Pirola'
+npm set init-license 'MIT' // da verificare
+npm get init-author-name
+npm config delet init-author-name
