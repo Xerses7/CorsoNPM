@@ -19,7 +19,7 @@ npm init -y // tutto accettato
 npm set init-author-name 'Dario Pirola'
 npm set init-license 'MIT' // da verificare
 npm get init-author-name
-npm config delet init-author-name
+npm config delete init-author-name
 
 // INSTALLARE
 npm install lodash
@@ -37,3 +37,4 @@ npm list --depth 0 --parseable true
 npm list --depth 0 --dev true
 npm list --depth 0 --prod true
 npm ls
+
