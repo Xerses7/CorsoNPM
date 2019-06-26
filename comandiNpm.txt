@@ -38,3 +38,11 @@ npm list --depth 0 --dev true
 npm list --depth 0 --prod true
 npm ls
 
+// INSTALLARE globally
+npm i gulp -g
+npm list -g --depth 0
+
+// DISINSTALLARE 
+npm uninstall underscore --save
+npm un underscore -g
+
