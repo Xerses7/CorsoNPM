@@ -46,3 +46,26 @@ npm list -g --depth 0
 npm uninstall underscore --save
 npm un underscore -g
 
+// INSTALLARE UNA SPECIFICA VERSIONE
+npm i underscore@1.8.1
+npm i express@"3.x"
+npm i underscore@1.8.2 --save --save-exact
+
+// IN PACKAGE.json
+"dependencies": {
+    "underscore": "^1.8.1" // installa SEMPRE la minor version più nuova
+}
+
+"dependencies": {
+    "underscore": "~1.8.1" // installa SEMPRE la patch version più nuova
+}
+
+"dependencies": {
+    "underscore": "*" // installa qualunque versione più nuova
+}
+
+// AGGIORNAMENTO
+npm update
+npm update --dev
+npm update --prod
+npm update -g gulp
