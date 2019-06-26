@@ -7,11 +7,15 @@ npm install
 npm start // da package.json
 npm test // da package.json
 
+// aggiornare NPM (CON PRIVILEGI DI AMMINISTRAZIONE)
+npm i npm@latest -g
+
 // NPM HELP
 npm -h
 npm install -h
 npm help install
 npm help-search remove
+npm search underscore
 
 // INIZIARE NUOVO PROGETTO
 npm init
@@ -25,6 +29,7 @@ npm config delete init-author-name
 npm install lodash
 npm install lodash --save (-S) // salvare in package.json
 npm i karma --save-dev (-D) // dipendenze per sviluppo
+npm i gist:<hash> --save
 
 // LIST
 npm list
@@ -69,3 +74,10 @@ npm update
 npm update --dev
 npm update --prod
 npm update -g gulp
+
+// RIMUOVERE PACCHETTI NON USATI
+npm prune
+npm prune --production // rimuove le dev dep
+
+// PER APRIRE IL REPO DEL PACCHETTO
+npm repo underscore
