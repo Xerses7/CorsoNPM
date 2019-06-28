@@ -1,0 +1,10 @@
+// visualizza la versione di node
+node -v
+
+nvm install 9.5 // installa e setta versione
+nvm use 8.9.4 // setta la versione per la istanza in corso
+
+nvm install --lts // installa ultima versione
+
+nvm alias default 9.5 // setta la versione anche alle altre istanze
+
