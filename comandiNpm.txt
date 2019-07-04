@@ -81,3 +81,7 @@ npm prune --production // rimuove le dev dep
 
 // PER APRIRE IL REPO DEL PACCHETTO
 npm repo underscore
+
+// creare un file .npmrc
+code ~/.npmrc
+cat .npmrc
